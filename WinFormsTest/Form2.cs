@@ -1,4 +1,5 @@
 ﻿using Infrastructure;
+using Infrastructure.Forms.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using WinFormsTest.Payloads;
 
 namespace WinFormsTest
 {
-    public partial class Form2 : Form
+    public partial class Form2 : BaseForm
     {
         public Form2()
         {
@@ -23,5 +24,8 @@ namespace WinFormsTest
         {
             EventAggregator.GetInstance().Publish(new ChangeLabelPayload() { Label = "Label changed!" });
         }
+
+        [DependencyInjection]
+        public ISample Sample { get; set; }
     }
 }

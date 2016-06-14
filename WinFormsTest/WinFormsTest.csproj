@@ -89,9 +89,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
+    <ProjectReference Include="..\Infrastructure.Forms.DependencyInjection\Infrastructure.Forms.DependencyInjection.csproj">
+      <Project>{bb75b952-5db5-43b7-a756-275bb85700d7}</Project>
+      <Name>Infrastructure.Forms.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.Forms.csproj">
       <Project>{9e6384fe-ba1e-493c-bbfd-68cbb067a243}</Project>
-      <Name>Infrastructure</Name>
+      <Name>Infrastructure.Forms</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

@@ -1,4 +1,5 @@
 ﻿using Infrastructure;
+using Infrastructure.Forms.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,10 @@ namespace WinFormsTest
         [STAThread]
         static void Main()
         {
+            //Container.Instance.RegisterType<ISample, Sample>();
+            //Container.Instance.RegisterInstance<ISample>(new Sample());
+            Container.Instance.RegisterInstance<ISample, Sample>();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(FormManager.Initialize<Form1, FormOneController>());

@@ -1,5 +1,6 @@
 ﻿using Infrastructure;
 using Infrastructure.DefaultTemplates;
+using Infrastructure.Forms.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,7 @@ using WinFormsTest.Payloads;
 
 namespace WinFormsTest
 {
-    public partial class Form1 : Form, IView<FormOneController>
+    public partial class Form1 : BaseForm, IView<FormOneController>
     {
         public Form1()
         {
@@ -22,8 +23,6 @@ namespace WinFormsTest
 
             EventAggregator.GetInstance().Subscribe<ChangeLabelPayload>(ChangeLabel);
         }
-
-        public FormOneController Controller { get; set; }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -34,5 +33,17 @@ namespace WinFormsTest
         {
             label1.Text = payload.Label;
         }
+
+        [DependencyInjection]
+        public ISample Sample { get; set; }
+        public FormOneController Controller { get; set; }
+    }
+
+    public interface ISample
+    {
+    }
+
+    public class Sample : ISample
+    {
     }
 }
