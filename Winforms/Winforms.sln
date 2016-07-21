@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hats.Infrastructure.Core", "..\Hats.Infrastructure.Core\Hats.Infrastructure.Core.csproj", "{C01270CE-9155-45F7-AA01-F0AC52394D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hats.Infrastructure.Data", "..\Hats.Infrastructure.Data\Hats.Infrastructure.Data.csproj", "{6F8D912E-94ED-4605-93E0-A0074F54B3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hats.Infrastructure.Forms", "..\Hats.Infrastructure.Forms\Hats.Infrastructure.Forms.csproj", "{D2431B47-977C-4B34-B7F5-7A3FBC136CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hats.Infrastructure.Forms.DependencyInjection", "..\Hats.Infrastructure.Forms.DependencyInjection\Hats.Infrastructure.Forms.DependencyInjection.csproj", "{E43D765D-4B71-4786-A27F-F426A8882DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hats.Infrastructure.Forms.Validation", "..\Hats.Infrastructure.Forms.Validation\Hats.Infrastructure.Forms.Validation.csproj", "{9A69D559-3AD0-47FA-AC9C-57FA4E2E5AE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C01270CE-9155-45F7-AA01-F0AC52394D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01270CE-9155-45F7-AA01-F0AC52394D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01270CE-9155-45F7-AA01-F0AC52394D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01270CE-9155-45F7-AA01-F0AC52394D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8D912E-94ED-4605-93E0-A0074F54B3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8D912E-94ED-4605-93E0-A0074F54B3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8D912E-94ED-4605-93E0-A0074F54B3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8D912E-94ED-4605-93E0-A0074F54B3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2431B47-977C-4B34-B7F5-7A3FBC136CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2431B47-977C-4B34-B7F5-7A3FBC136CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2431B47-977C-4B34-B7F5-7A3FBC136CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2431B47-977C-4B34-B7F5-7A3FBC136CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43D765D-4B71-4786-A27F-F426A8882DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43D765D-4B71-4786-A27F-F426A8882DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43D765D-4B71-4786-A27F-F426A8882DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43D765D-4B71-4786-A27F-F426A8882DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A69D559-3AD0-47FA-AC9C-57FA4E2E5AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A69D559-3AD0-47FA-AC9C-57FA4E2E5AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A69D559-3AD0-47FA-AC9C-57FA4E2E5AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A69D559-3AD0-47FA-AC9C-57FA4E2E5AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
